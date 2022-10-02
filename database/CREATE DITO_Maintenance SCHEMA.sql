@@ -1,0 +1,10 @@
+USE DITO 
+GO
+
+
+DROP SCHEMA IF EXISTS DITO_Maintenance
+GO
+
+CREATE SCHEMA DITO_Maintenance
+GO
+

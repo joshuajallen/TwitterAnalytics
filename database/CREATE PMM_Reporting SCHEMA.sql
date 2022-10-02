@@ -1,0 +1,8 @@
+USE DITO
+GO
+
+IF NOT EXISTS( SELECT  * FROM sys.schemas WHERE name = N'PMM_Reporting' ) 
+
+EXEC('CREATE SCHEMA [PMM_Reporting] AUTHORIZATION [DBO]');
+GO
+;
